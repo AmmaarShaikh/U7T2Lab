@@ -10,6 +10,7 @@ public class AnotherRunner {
         Car car4 = new Car("Accent", 1980);
         Car car5 = new Car("Cruiser", 10500);
         Car[] carArray = {car1, car2, car3, car4, car5};
+        System.out.println("Changes");
 
 // use the Arrays.asList utility method to convert the array to a list "inline"
         ArrayList<Car> carList = new ArrayList<Car>(Arrays.asList(carArray));
